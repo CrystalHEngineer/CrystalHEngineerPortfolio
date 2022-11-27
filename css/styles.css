@@ -1,0 +1,163 @@
+body {
+  font-family: 'Special Elite', cursive;
+  margin: 0;
+  text-align: center;
+}
+
+
+/* Navbar */
+
+.navbar {
+  background-image: url('wood.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nav-link {
+  color: white!important;
+}
+
+.navbar-togglers {
+  color: white!important;
+}
+
+@media(max-width:66rem){
+  .nav-link{
+    text-align: center;
+  }
+}
+
+/* Top Container */
+
+.top-container {
+  background-color: gray;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('Colorado.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 90vh;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.top-container-hs {
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -40%);
+  top: 40%;
+}
+
+.top-container-h1 {
+  align-items: center;
+  color: white;
+  font-family: 'Special Elite', cursive;
+  font-size: 5rem;
+
+}
+
+.top-container-h2 {
+  color: white;
+  font-size: 2.5rem;
+
+}
+
+
+/* Middle Container */
+
+
+
+h2 {
+  color: white;
+  font-size: 2.5rem;
+  margin: 0px;
+}
+
+h3 {
+  margin: 0;
+}
+
+
+
+.middle-container {
+  background-color: white;
+  background-image: url('rock.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+
+.testimonial-image {
+  border: 20rem;
+  border-color: gray;
+  height: 40rem;
+  margin: 2rem;
+  width: 65%;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+/* Bottom Container */
+
+.bottom-container {
+  background-color: gray;
+  background-image: url('wood.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 4rem;
+  width: 100%;
+}
+
+.btn {
+  background: #445b6b;
+  background-image: -webkit-linear-gradient(top, #445b6b, #9eafba);
+  background-image: -moz-linear-gradient(top, #445b6b, #9eafba);
+  background-image: -ms-linear-gradient(top, #445b6b, #9eafba);
+  background-image: -o-linear-gradient(top, #445b6b, #9eafba);
+  background-image: linear-gradient(to bottom, #445b6b, #9eafba);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Courier New;
+  color: #000000;
+  font-size: 19px;
+  padding: 5px 10px 5px 10px;
+  position: relative;
+  text-decoration: none;
+  top: 1.3rem
+}
+
+.btn:hover {
+  background: #c9ced1;
+  background-image: -webkit-linear-gradient(top, #c9ced1, #999999);
+  background-image: -moz-linear-gradient(top, #c9ced1, #999999);
+  background-image: -ms-linear-gradient(top, #c9ced1, #999999);
+  background-image: -o-linear-gradient(top, #c9ced1, #999999);
+  background-image: linear-gradient(to bottom, #c9ced1, #999999);
+  text-decoration: none;
+}
+
+
+.contact-me {
+  height: 7rem;
+  padding-top: 1.5rem;
+}
+
+
+.copy-tag {
+  color: white;
+  font-size: .75rem;
+}
+
+
+.footer-link {
+  color: #EEEEEE;
+  padding: .5rem;
+
+}
