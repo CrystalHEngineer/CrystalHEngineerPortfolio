@@ -8,13 +8,17 @@ body {
 /* Navbar */
 
 .navbar {
-  background-image: url('wood.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background: rgba(0,0,0,0.2);
 }
 
 .nav-link {
-  color: white!important;
+  color: #CFD2CF;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #9D9D9D;
 }
 
 .navbar-togglers {
@@ -31,7 +35,7 @@ body {
 
 .top-container {
   background-color: gray;
-  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url('Colorado.jpg');
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url('Colorado.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 90vh;
@@ -43,8 +47,8 @@ body {
 .top-container-hs {
   left: 50%;
   position: absolute;
-  transform: translate(-50%, -40%);
-  top: 40%;
+  transform: translate(-50%, -45%);
+  top: 45%;
 }
 
 .top-container-h1 {
@@ -62,9 +66,38 @@ body {
 }
 
 
+/* Second Container */
+
+.second-container {
+  background-color: #E1EEFF;
+  color: #543A3A;
+  padding: 5% 15%;
+}
+
+
+/* Third Container */
+
+.third-container {
+  background-color: #FAFAFA;
+  color: #C2CFD8;
+  padding: 5%;
+}
+
+.third-container-h1 {
+  font: bold;
+}
+
+.third-container-p {
+  font-size: 1.5rem;
+}
+
+
 /* Middle Container */
 
-
+.feature {
+  
+  text-align: center;
+}
 
 h2 {
   color: white;
@@ -79,11 +112,8 @@ h3 {
 
 
 .middle-container {
-  background-color: white;
-  background-image: url('rock.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #E1EEFF;
+  color: #5F6769;
   height: 100%;
   margin: 0;
   width: 100%;
@@ -106,10 +136,7 @@ ul {
 /* Bottom Container */
 
 .bottom-container {
-  background-color: gray;
-  background-image: url('wood.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background: rgba(0,0,0,0.2);
   height: 4rem;
   width: 100%;
 }
