@@ -5,24 +5,26 @@ body {
 }
 
 
+
 /* Navbar */
 
 .navbar {
-  background: rgba(0,0,0,0.2);
+  background-image: linear-gradient(to right, #79025119,  #24309b24, #4c007021);
+  /* background: rgba(0, 0, 0, 0.098); */
 }
 
 .nav-link {
-  color: #CFD2CF;
+  color: black;
   font-size: 1.2rem;
   font-weight: 500;
 }
 
 .nav-link:hover {
-  color: #9D9D9D;
+  color: gray;
 }
 
 .navbar-togglers {
-  color: white!important;
+  color: gray!important;
 }
 
 @media(max-width:66rem){
@@ -33,14 +35,54 @@ body {
 
 /* Top Container */
 
+
+.header-bar-bottom {
+  background: black;
+  height: 4px;
+  margin-top: 3%;
+}
+
+.header-bar-top {
+  background: black;
+  height: 4px;
+  margin-bottom: 5%;
+}
+
+.hs-java-icon {
+  color: #242f9b;
+  position: relative;
+  right: 10%;
+}
+
+.hs-javascript-icon {
+  color: #790252;
+  position: relative;
+  padding-top: 2.5%;
+  right: 30%;
+}
+
+.hs-python-icon {
+  left: 31%;
+  position: relative;
+}
+
+.hs-react-icon {
+  color: #4c0070;
+  left: 10%;
+  position: relative;
+}
+
 .top-container {
-  background-color: gray;
-  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)), url('Colorado.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-color: white;
   height: 90vh;
   position: relative;
   text-align: center;
+  width: 100%;
+}
+
+.top-container-bottom-frame {
+  background-image: linear-gradient(to right, #790252,  #242f9b, #4c0070);
+  height: .8rem;
   width: 100%;
 }
 
@@ -53,34 +95,118 @@ body {
 
 .top-container-h1 {
   align-items: center;
-  color: white;
+  color: black;
   font-family: 'Special Elite', cursive;
   font-size: 5rem;
 
 }
 
 .top-container-h2 {
-  color: white;
+  color: black;
   font-size: 2.5rem;
-
 }
 
 
 /* Second Container */
 
-.second-container {
-  background-color: #E1EEFF;
+.hexagon::before{
+  background: radial-gradient(rgba(0,0,0,0.26), transparent, transparent);
+  border-radius: 50%;
+  bottom: -70px;
+  content: '';
+  height: 60px;
+  left: 1%;
+  position: absolute;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.hexagon:hover::before{
+  opacity: 0.8;
+  transform: scale(0.8);
+}
+
+.hexagon{
+  position: relative;
+  width: 350px;
+  height: 400px;
+}
+
+.hexagon .hexagon-shape{
+  background-image: url('work.jpg');
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.hexagon:hover .hexagon-shape{
+  transform: translateY(-30px);
+}
+
+.hexagon .hexagon-shape .img{
+  background-image: url('work.jpg');
+  background-size: cover;
+  bottom: 0;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  width: inherit;
+}
+
+.hexagon .hexagon-shape .content{
+  align-items: center;
+  background: linear-gradient(45deg, #b3c6c3, rgba(99, 109, 108, 0.5));
+  color: #fff;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.hexagon:hover .hexagon-shape .content{
+  opacity: 1;
+}
+
+.full-background {
+  background: url('white-stone.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #E1D7C6;
   color: #543A3A;
-  padding: 5% 15%;
 }
 
 
 /* Third Container */
 
+.about{
+  display: inline-block;
+}
+
+.data {
+  margin-bottom: 25%;
+}
+
+.me-pic {
+  height: 20rem;
+  width: 20rem;
+}
+
+.photo-about {
+  width: 20%;
+}
+
 .third-container {
-  background-color: #FAFAFA;
-  color: #C2CFD8;
-  padding: 5%;
 }
 
 .third-container-h1 {
@@ -88,8 +214,11 @@ body {
 }
 
 .third-container-p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
+
+
+
 
 
 /* Middle Container */
@@ -112,7 +241,6 @@ h3 {
 
 
 .middle-container {
-  background-color: #E1EEFF;
   color: #5F6769;
   height: 100%;
   margin: 0;
@@ -136,7 +264,7 @@ ul {
 /* Bottom Container */
 
 .bottom-container {
-  background: rgba(0,0,0,0.2);
+  background-image: linear-gradient(to right, #790252,  #242f9b, #4c0070);
   height: 4rem;
   width: 100%;
 }
