@@ -9,7 +9,7 @@ body {
 /* Navbar */
 
 .navbar {
-  background-image: linear-gradient(to right, #79025119,  #24309b24, #4c007021);
+  background-image: linear-gradient(to right, #790252,  #242f9b, #4c0070);
   /* background: rgba(0, 0, 0, 0.098); */
 }
 
@@ -97,19 +97,70 @@ body {
   align-items: center;
   color: black;
   font-family: 'Special Elite', cursive;
-  font-size: 5rem;
+  font-size: 6.5rem;
 
 }
 
 .top-container-h2 {
   color: black;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 
 /* Second Container */
 
-.hexagon::before{
+.logo {
+  border: 20rem;
+  border-color: gray;
+  height: 5rem;
+  margin: 2rem;
+  width: 70%;
+}
+
+.portfolio-desc {
+  font-size: 1.3rem;
+}
+
+.portfolio-desc-img {
+  align-items: center;
+  height: 42.5rem;
+  width: 25rem;
+}
+
+.portfolio-header {
+  color: black;
+  padding-bottom: 3%;
+  padding-top: 6%;
+}
+
+.portfolio-lg-img {
+  height: 80vh;
+  margin-right: 3%;
+  width: 60%;
+}
+
+.portfolio-sm-img {
+  height: 80vh;
+  width: 30%;
+}
+
+/* .portfolio-lg-img {
+  height: 42.5rem;
+  width: 50rem;
+}
+
+.portfolio-sm-img {
+  height: 42.5rem;
+  width: 27rem;
+} */
+
+.portfolio {
+  color: black;
+  display: flex;
+  padding-bottom: 5%;
+}
+
+/* .hexagon::before{
   background: radial-gradient(rgba(0,0,0,0.26), transparent, transparent);
   border-radius: 50%;
   bottom: -70px;
@@ -176,15 +227,15 @@ body {
 
 .hexagon:hover .hexagon-shape .content{
   opacity: 1;
-}
+} */
 
-.full-background {
+/* .full-background {
   background: url('white-stone.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: #E1D7C6;
   color: #543A3A;
-}
+} */
 
 
 /* Third Container */
