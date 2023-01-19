@@ -114,6 +114,55 @@ em {
   font-size: 3.5rem;
 }
 
+@media screen and (max-width: 800px) {
+
+  .hs-java-icon {
+    font-size: 3em;
+  }
+
+  .hs-javascript-icon {
+    font-size: 3em;
+  }
+
+  .hs-python-icon {
+    font-size: 3em;
+  }
+
+  .hs-react-icon {
+    font-size: 3em;
+  }
+
+  .top-container-h1 {
+    font-size: 3.5rem;
+  }
+
+  .top-container-h2 {
+    font-size: 1.7rem;
+  }
+  
+}
+
+@media screen and (max-width: 800px) {
+
+  .hs-java-icon {
+    font-size: 2em;
+  }
+
+  .hs-javascript-icon {
+    font-size: 2em;
+  }
+
+  .hs-python-icon {
+    font-size: 2em;
+  }
+
+  .hs-react-icon {
+    font-size: 2em;
+  }
+
+
+  
+}
 
 /* Second Container */
 
