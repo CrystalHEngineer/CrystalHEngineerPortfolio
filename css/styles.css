@@ -165,7 +165,7 @@ em {
   padding-bottom: 5%;
 }
 
-/* @media screen and (max-width: 1068px) {
+@media screen and (max-width: 1068px) {
 
   .portfolio {
     align-items: center;
@@ -194,7 +194,7 @@ em {
     height: inherit;
     padding-bottom: 3%;
     width: 45%;
-  } */
+  }
 
 }
 
