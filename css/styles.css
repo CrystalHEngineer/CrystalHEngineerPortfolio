@@ -229,9 +229,10 @@ em {
 
   .portfolio-lg-img {
     display: block;
-    height: 50vh;
+    height: 80vh;
+    margin-left: 5%;
     padding-bottom: 3%;
-    width: 100%;
+    width: 95%;
   }
   
   .portfolio-sm-img {
@@ -249,7 +250,7 @@ em {
   .portfolio-sm-img {
     display: block;
     height: 50vh;
-    width: 100%;
+    width: 90%;
   }
 }
 
