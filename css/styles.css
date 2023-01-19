@@ -165,7 +165,7 @@ em {
   padding-bottom: 5%;
 }
 
-@media screen and (max-width: 1068px) {
+/* @media screen and (max-width: 1068px) {
 
   .portfolio {
     align-items: center;
@@ -196,7 +196,7 @@ em {
     width: 45%;
   }
 
-}
+} */
 
 
 /* ----- SKILLSET ------ */
