@@ -189,6 +189,16 @@ em {
     display: none;
   }
 
+  .skill-pic-desc {
+    display: flex;
+  }
+
+  .skill-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5% 0 5%;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -200,9 +210,14 @@ em {
   .portfolio-sm-img {
     display: block;
     height: 50vh;
-    margin-left:25%;
     width: 100%;
   }
+
+  @media screen and (max-width: 600px) {
+
+    .portfolio {
+      flex-direction: column;
+    }
 
 }
 
@@ -237,6 +252,57 @@ em {
 .skill-pic-desc {
   margin-left: 10%;
   width: 40%;
+}
+
+@media screen and (max-width: 1068px) {
+
+  .skill-pic-desc {
+    display: flex;
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .skill-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5% 5% 5%;
+  }
+
+  .skill-list {
+    display: flex;
+    margin: 6% 25% 0% 25%;
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 720px) {
+
+
+  .me-pic-skill {
+    margin: 0% 25% 2% 25%;
+  }
+
+  .skill-pic-desc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .skill-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5% 5% 5%;
+  }
+
+  .skill-list {
+    display: flex;
+    margin: 6% 10% 0;
+    width: 100%;
+  }
+
 }
 
 
@@ -281,7 +347,33 @@ em {
 }
 
 
+@media screen and (max-width: 800px) {
 
+
+  .lor {
+    flex-direction: column;
+    padding: 0%;
+  }
+  .lor-box {
+    flex-direction: column;
+    padding: 0% 0% 3% 0%;
+  }
+
+  .lor-credits-left {
+    padding: 0%;
+    width: 90%;
+  }
+
+  .lor-credits-right {
+    padding: 0%;
+    width: 90%;
+  }
+
+  .p1-lor {
+    width: 90%;
+  }
+
+}
 
 
 /* Bottom Container */
@@ -345,4 +437,22 @@ em {
 .me-pic {
   height: 7rem;
   width: 7rem;
+}
+
+@media screen and (max-width: 800px) {
+
+  .about-me {
+    width: 100%;
+  }
+
+  .footer-links {
+    display: flex;
+    margin-left: 30%;
+    width: 100%;
+  }
+  
+  .footer-info {
+    flex-direction: column;
+  }
+
 }
