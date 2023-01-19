@@ -169,7 +169,7 @@ em {
 
   .portfolio {
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .portfolio-desc-img {
@@ -178,25 +178,37 @@ em {
     width: 50%;
   }
 
-  .portfolio-imgs {
-    align-items: center;
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
   .portfolio-lg-img {
-    height: inherit;
+    display: block;
+    height: 50vh;
     padding-bottom: 3%;
-    width: 90%;
+    width: 100%;
   }
   
   .portfolio-sm-img {
-    height: inherit;
-    padding-bottom: 3%;
-    width: 45%;
+    display: none;
   }
 
 }
+
+@media screen and (max-width: 800px) {
+
+  .portfolio-lg-img {
+    display: none;
+  }
+  
+  .portfolio-sm-img {
+    display: block;
+    height: 50vh;
+    margin-left:25%;
+    width: 100%;
+  }
+
+}
+
+
+
+
 
 
 /* ----- SKILLSET ------ */
