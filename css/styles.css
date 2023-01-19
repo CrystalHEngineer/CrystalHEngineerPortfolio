@@ -95,10 +95,11 @@ em {
 }
 
 .top-container-hs {
-  left: 50%;
+  left: 47.5%;
   position: absolute;
   transform: translate(-50%, -45%);
   top: 45%;
+  width: 55%;
 }
 
 .top-container-h1 {
@@ -111,10 +112,75 @@ em {
 
 .top-container-h2 {
   color: black;
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1600px) {
+
+  .top-container-hs {
+    width: 60%;
+  }
+  
+}
+
+@media screen and (max-width: 1400px) {
+
+  .top-container-hs {
+    width: 65%;
+  }
+  
+}
+
+
+@media screen and (max-width: 1247px) {
+
+  .hs-java-icon {
+    font-size: 3.5em;
+  }
+
+  .hs-javascript-icon {
+    font-size: 3.5em;
+  }
+
+  .hs-python-icon {
+    font-size: 3.5em;
+  }
+
+  .hs-react-icon {
+    font-size: 3.5em;
+  }
+
+  .top-container-hs {
+    width: 75%;
+  }
+  
+  .top-container-h1 {
+    font-size: 6rem;
+  }
+
+  .top-container-h2 {
+    font-size: 3.5rem;
+  }
+  
+}
+
+@media screen and (max-width: 1001px) {
+
+  .top-container-hs {
+    width: 85%;
+  }
+
+  .top-container-h1 {
+    font-size: 5.2rem;
+  }
+
+  .top-container-h2 {
+    font-size: 3rem;
+  }
+  
+}
+
+@media screen and (max-width: 812px) {
 
   .hs-java-icon {
     font-size: 3em;
@@ -130,6 +196,48 @@ em {
 
   .hs-react-icon {
     font-size: 3em;
+  }
+
+  .top-container-hs {
+    width: 75%;
+  }
+
+  .top-container-h1 {
+    font-size: 4rem;
+  }
+
+  .top-container-h2 {
+    font-size: 2.5rem;
+  }
+  
+}
+
+@media screen and (max-width: 800px) {
+
+  .hs-java-icon {
+    font-size: 2em;
+  }
+
+  .hs-javascript-icon {
+    font-size: 2em;
+  }
+
+  .hs-python-icon {
+    font-size: 2em;
+  }
+
+  .hs-react-icon {
+    font-size: 2em;
+  }
+
+
+  
+}
+
+@media screen and (max-width: 672px) {
+
+  .top-container-hs {
+    width: 85%;
   }
 
   .top-container-h1 {
@@ -137,31 +245,8 @@ em {
   }
 
   .top-container-h2 {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
-  
-}
-
-@media screen and (max-width: 800px) {
-
-  .hs-java-icon {
-    font-size: 2em;
-  }
-
-  .hs-javascript-icon {
-    font-size: 2em;
-  }
-
-  .hs-python-icon {
-    font-size: 2em;
-  }
-
-  .hs-react-icon {
-    font-size: 2em;
-  }
-
-
-  
 }
 
 /* Second Container */
@@ -214,7 +299,7 @@ em {
   padding-bottom: 5%;
 }
 
-@media screen and (max-width: 1068px) {
+@media screen and (max-width: 1200px) {
 
   .portfolio {
     align-items: center;
@@ -267,6 +352,13 @@ em {
 
 }
 
+@media screen and (max-width: 350px) {
+
+  .portfolio-sm-img {
+    height: 60vh;
+  }
+
+}
 
 
 
@@ -316,8 +408,8 @@ em {
 
   .skill-list {
     display: flex;
-    margin: 6% 25% 0% 25%;
-    width: 100%;
+    margin: 5% 25% 0%;
+    width: 50%;
   }
 
 
@@ -328,14 +420,13 @@ em {
 
 
   .me-pic-skill {
-    margin-bottom: 2%;
+    margin: 0% 5%;
+    object-fit: contain;
+    width: 90%;
   }
 
   .skill-pic-desc {
-    display: flex;
     flex-direction: column;
-    margin-left: 0%;
-    width: 100%;
   }
 
   .skill-box {
@@ -344,10 +435,29 @@ em {
     padding: 0 5% 5% 5%;
   }
 
-  .skill-list {
-    display: flex;
-    margin: 6% 0% 0% 0%;
+}
+
+@media screen and (max-width: 600px) {
+
+
+  .me-pic-skill {
+    margin: 0% 5%;
+    object-fit: contain;
+    width: 90%;
+  }
+
+  .skill-pic-desc {
+    margin-left: 0%;
     width: 100%;
+  }
+
+  .skill-box {
+    padding: 0%;
+  }
+
+  .skill-list {
+    margin: 0% 5%;
+    width: 90%;
   }
 
 }
@@ -367,6 +477,7 @@ em {
 }
 
 .lor-credits-right {
+  margin: 3% 0%;
   padding-left: 10%;
   width: 30%;
 }
