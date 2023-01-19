@@ -250,6 +250,7 @@ em {
   .portfolio-sm-img {
     display: block;
     height: 80vh;
+    margin: 0% 5%;
     width: 90%;
   }
 }
