@@ -405,9 +405,9 @@ em {
     }
 
     .portfolio-sm-img {
-      margin: 0%;
+      margin: 0% 5%;
       padding-bottom: 5%;
-      width: 100%;
+      width: 90%
     }
 
 }
