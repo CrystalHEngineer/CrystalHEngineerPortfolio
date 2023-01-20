@@ -386,7 +386,7 @@ em {
   .portfolio-sm-img {
     display: block;
     height: 80vh;
-    margin: 0% 5%;
+    margin: 1% 5%;
     object-fit: contain;
     width: 90%;
   }
@@ -405,9 +405,7 @@ em {
     }
 
     .portfolio-sm-img {
-      margin: 0% 5%;
       padding-bottom: 5%;
-      width: 90%
     }
 
 }
